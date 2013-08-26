@@ -86,4 +86,5 @@ func (s *tServer) closeConnection(c *tConnection) {
     delete(s.connections.m, addr)
     s.connections.Unlock()
     c.Close()
+    c.app.Terminate()
 }
