@@ -3,9 +3,13 @@
 Utility to ease the creation of SSH based applications in go
 
 
-## Example
+## Examples of use
 
-See this [Demo][demo] ( [app.go][file] ) of sshgate which accept git push/pull operations.
+- See this [Demo][demo] ( [app.go][file] ) of sshgate which accept git push/pull operations
+- Authenticate users from database
+- Route push/pull to the right back-end _(our primary use case)_
+- Single entry point for your cluster of servers
+- ...
 
 
 ## How to use?
